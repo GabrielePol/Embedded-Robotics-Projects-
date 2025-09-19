@@ -1,0 +1,12 @@
+//How to blink an led with Arduino
+void setup() {
+  pinMode(11,OUTPUT); //Pin 
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(11,HIGH);
+  delay(1000);
+  digitalWrite(11,LOW);
+  delay(1000);
+}
